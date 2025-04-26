@@ -19,7 +19,7 @@ const Index: FC<Props> = () => {
       <div id='contact' className=" mx-auto flex w-full max-w-[60vw] md:max-w-[90%] flex-1 flex-col items-center justify-center text-center">
         <h3 className="text-[4vw] md:text-[8vw] font-medium">Let’s Talk</h3>
         <p className="mt-[0.6vw] text-[1.7vw] md:text-[3.2vw] font-normal text-gray-300 md:leading-[1.3]">
-        We’re not just a creative digital agency — we’re your co-pilots on the journey through the ever-shifting digital universe, turning ideas into impact and clicks into connections.        </p>
+          We’re not just a creative digital agency — we’re your co-pilots on the journey through the ever-shifting digital universe, turning ideas into impact and clicks into connections.        </p>
         <Button
           onClick={handleFormToggle}
           title="Submit a Request"
