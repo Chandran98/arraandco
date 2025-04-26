@@ -17,7 +17,7 @@ const Index: FC<Props> = () => {
   };
 
   return (
-    <SectionOpacity classes="flex flex-col justify-center h-screen">
+    // <SectionOpacity  classes="flex flex-col justify-center h-screen">
 
 <section id="careers" className="relative border-t border-gray-1 py-[6vw] md:py-[4vw]">
       <SectionTitle title="CAREERS" classes="text-right px-[6vw] md:px-[3vw] pt-[3vw]" />
@@ -27,7 +27,7 @@ const Index: FC<Props> = () => {
     </section>
 
      
-    </SectionOpacity>
+    // </SectionOpacity>
   );
 };
 export default Index;
