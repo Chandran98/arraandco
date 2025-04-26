@@ -16,6 +16,9 @@ export const NAV_ITEMS = [
   {
     title: 'Approach',
     href: 'approach',
+  },{
+    title: 'Careers',
+    href: 'careers',
   },
   {
     title: 'Contact',
@@ -34,6 +37,7 @@ export const CARDS = [
     ],
     number: '01.',
     classes: '',
+    extra:""
   },
   {
     title: 'IT solutions',
@@ -44,7 +48,7 @@ export const CARDS = [
       ['CMS',  'App development '],
     ],
     number: '02.',
-    classes: 'border-t border-gray-1/50',
+    classes: 'border-t border-gray-1/50',extra:""
   },
   {
     title: 'Photography and videography',
@@ -52,47 +56,65 @@ export const CARDS = [
       "We don’t just capture moments — we create stories. Through dynamic photography and cinematic videography, we help brands showcase their essence, tell compelling narratives, and leave lasting impressions. Every frame we craft is designed to inspire, engage, and connect with your audience on a deeper level. ",
     services: [['Creative photography', 'Creative reels'],['White background']],
     number: '03.',
-    classes: 'border-t border-gray-1/50',
+    classes: 'border-t border-gray-1/50',extra:""
   },{
     title: 'Designing',
     description:
       "We believe great design is more than beauty — it’s strategy in action. From striking visuals to bold brand identities, we create designs that speak, resonate, and endure. We blend creativity and clarity to build brands that are not only seen — but remembered.",
     services: [['Creative flyers', 'Branding'],['Video editing','3d model rendering'],['Interior and exterior design']],
     number: '04.',
-    classes: 'border-t border-gray-1/50',
+    classes: 'border-t border-gray-1/50',extra:""
   },
 ];
   
 
+
+
+export const CAREERCARDS = [
+  {
+    title: 'Hiring',
+    description:
+    "We’re always looking for passionate, talented people to grow with us. Ready to build, create, and innovate? Let’s shape the future together.",
+ services: [
+      ['SEO Specialist','SMO Specialist'],
+      ['Full Stack Developer',"HR"],
+      ['Video Editor',"Graphic Designer"]
+    ],
+    number: '',
+    extra:"🚀Send us your work to hr@arraandco.in and be part of something amazing.",
+    classes: '',
+  },
+];
+
 export const APPROACH_CARDS = [
   {
     icon: First,
-    title: 'Consultation',
+    title: 'Discovery & Consultation',
     description:
-      "We listen carefully to the customer's wishes and ideas about the project. Then we share our vision and, based on this exchange, come to a common agreement.",
+      "We start by deeply understanding your goals, ideas, and requirements. Through open dialogue, we align visions and establish a clear roadmap for success.",
   },
   {
     icon: Second,
-    title: 'Joint review',
+    title: 'Collaborative Design Review',
     description:
-      "Then we start creating the design. After completion, we conduct a joint review, where the customer, if desired, can make changes.",
+      "Our team translates your ideas into initial designs. Once completed, we conduct a joint review session where your feedback shapes the final direction.",
   },
   {
     icon: Third,
-    title: 'Development',
-    description: "Once the design is approved, we begin the actual development of the product.",
+    title: 'Development & Implementation',
+    description: "After design approval, our developers get to work. We build with precision, ensuring that every feature reflects your vision and meets our quality standards.",
   },
   {
     icon: Fourth,
-    title: 'Testing',
+    title: 'Quality Assurance & Testing',
     description:
-      "Upon completion of development, we thoroughly test each component of the product. Then we invite the customer for user testing.",
+      "Every product undergoes rigorous testing to guarantee performance, security, and user experience. Your feedback is crucial during this phase for final refinements.",
   },
   {
     icon: Fifth,
-    title: 'Final result',
+    title: 'Launch & Beyond',
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates laboriosam ad eius, culpa soluta ab. Beatae optio quas adipisci aliquam quia velit soluta iste dicta, modi tenetur magnam, aut laborum placeat est. Unde minima amet illo eveniet qui sunt omnis laudantium laboriosam, officia dignissimos molestias tempore velit. Provident, explicabo. Dolor.",
+      "We deliver a polished, fully functional product that meets your needs and exceeds expectations — ready to make an impact from day one.",
   },
 ];
 

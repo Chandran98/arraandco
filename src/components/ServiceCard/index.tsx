@@ -5,7 +5,7 @@ interface Props {
   card: any;
 }
 
-const Index: FC<Props> = ({ card: { title, services, description, number, classes } }) => {
+const Index: FC<Props> = ({ card: { title, services, description, number,extra, classes } }) => {
   const { ref } = useInView({
     triggerOnce: true,
     threshold: 0.6,
@@ -33,6 +33,8 @@ const Index: FC<Props> = ({ card: { title, services, description, number, classe
 
         <div className="relative flex-1 ">
           <p className="relative z-[2000] line-clamp-4 text-[1.5vw] md:text-[3vw] font-medium leading-[1.7] md:text-balance md:leading-[1.5] md:mt-[3vw]">{description}</p>
+          <p className="relative z-[2000] line-clamp-4 text-[1.5vw] md:text-[3vw] font-medium leading-[1.7] mt-[5vw] md:text-balance md:leading-[1.5] md:mt-[3vw]">{extra}</p>
+         
           <div className="absolute right-[6vw] top-[1.8vw] z-[1] text-right text-[16vw] font-extrabold tracking-[5%] text-gray-1 md:text-[28vw] md:top-0">
             {number}
           </div>

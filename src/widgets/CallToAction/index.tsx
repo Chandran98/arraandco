@@ -27,16 +27,16 @@ const Index: FC<Props> = () => {
           btnClasses="mt-[1.2vw]"
         />
       </div>
-
       <footer className="flex justify-between border-t border-t-gray-800 px-[5vw] py-[1.8vw] text-[1.6vw] md:text-[2vw] md:py-[2.4vw] md:px-[2vw] ">
         <div>© 2024. Arraandco</div>
       
         <ul className="flex space-x-[3vw] ">
           {/* <li>Lorem, ipsum.</li> */}
           <li>+91 7299395033</li>
-          <li>info@arraandco</li>
+          <li>info@arraandco.in</li>
         </ul>
       </footer>
+
     </SectionOpacity>
   );
 };
